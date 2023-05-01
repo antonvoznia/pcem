@@ -8,7 +8,7 @@
 #ifndef _VID_VOODOO_CODEGEN_X86_64_H_
 #define _VID_VOODOO_CODEGEN_X86_64_H_
 
-#if defined(__linux__) || defined(__APPLE__)
+#if defined(__linux__) || defined(__APPLE__) || defined(__FreeBSD__)
 #include <sys/mman.h>
 #include <unistd.h>
 #endif
